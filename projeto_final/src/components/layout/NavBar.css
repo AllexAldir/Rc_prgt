@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+}
+
+.lista_ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.li{
+    margin-left: 1em;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover{
+    color: #ffbb33;
+}

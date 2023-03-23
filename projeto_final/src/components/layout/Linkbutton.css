@@ -1,0 +1,13 @@
+.btn{
+    background-color: #222;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    transition: 0.5s; 
+    border-radius: 8px;
+    /*Aqui faz a transição de com sensação de movimento*/
+}
+
+.btn:hover{
+    color: #ffbb33;
+}

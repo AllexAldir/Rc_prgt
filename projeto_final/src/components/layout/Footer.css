@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.footer{
+    background-color: #222;
+    padding: 3em;
+    text-align: center;
+    color: white;
+    /*height: 100%;*/
+}
+
+.lista_ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    margin: 0.5em;
+    font-size: 1.5em;
+}
+
+.icon:hover{
+    color: #ffbb33;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.contanier {
+    width: 28.2em;
+    margin: auto;
+    padding: 3em;
+
+}
+
+.contanier > h1 {
+    margin-bottom: 0.5em;
+}
+
+.contanier > p{
+    color: #7b7b7b;
+}
