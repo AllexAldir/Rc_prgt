@@ -1,0 +1,22 @@
+{
+    "pojetos": [],
+    
+    "categorias": [
+        {
+            "id": 1,
+            "name": "infra"
+        },
+        {
+            "id": 2,
+            "name": "desing"
+        },
+        {
+            "id": 3,
+            "name": "planejamentos"
+        },
+        {
+            "id": 4,
+            "name": "desenvolvimento"
+        }
+    ]
+}
