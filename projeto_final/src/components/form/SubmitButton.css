@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+button.btn_{
+    background-color: #222;
+    color: white;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: 0.5s; /*Transição de interatividade*/
+    cursor: pointer;
+    border: none;
+}
+
+button.btn_:hover{
+    color: #ffbb33;
+}

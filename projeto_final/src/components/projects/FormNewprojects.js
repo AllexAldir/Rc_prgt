@@ -1,25 +1,19 @@
+import { Input } from '../form/input'
+import { Select } from '../form/select'
+import { Submit } from '../form/submitButton'
+import './FormNewprojects.css'
+
 export function FormNew() {
     return (
-        <form>
-            <p>
-                <input type='text' placeholder="Digite o nome do projeto"></input>
-            </p>
+        <form className="form">
+            
+            <Input type="text" text="Nome do projeto" name="name" placeholder="Insira o nome do projeto"/>
 
-            <p>
-                <input type='number' placeholder="Digite o orçamento"></input>
-            </p>
+            <Input type="number" text="Faça o orçamento" name="name" placeholder="Insira o nome do projeto" />
 
-            <div>
-                <select id="i_select">
-                    <option selected disabled>Selecione a categoria</option>
-                    <option disabled>Categoria</option>
-                    <option disabled>Categoria</option>
-                </select>
-            </div>
-
-            <div>
-                <input type='submit'></input>
-            </div>
+            <Select name="categoria_id" text="Selecione a categoria"/>
+            
+            <Submit text="Criar Projeto"/>
         </form>
 
     )

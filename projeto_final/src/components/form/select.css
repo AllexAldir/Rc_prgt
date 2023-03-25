@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+label.controle {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+select.controle_ip {
+    padding: 0.7em;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.482);
+}
+
