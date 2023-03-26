@@ -9,7 +9,7 @@ export function FormNew() {
 
     //Coloca os hooks para armazenar as informações vidas da api
 
-    const [respo, setRespos] = useState([]);
+    const [respo, setRespos] = useState([]); //incrementa um valor para o meu state
 
     //coloca as repostas da minha requisição uma só vez
 
@@ -19,10 +19,11 @@ export function FormNew() {
             headers: {
                 'content-type': 'aplication/json',
             },
-        }).then(resposta => resposta.json())
-            .then(data => setRespos(data))
-            .catch(e => console.log(`Erro na requisição ${e}`))
-
+        })
+        .then(resposta => resposta.json())
+        .then(data => setRespos(data))
+        .catch(e => console.log(`Erro na requisição ${e}`))
+        
         
 
     }, [])
@@ -34,10 +35,10 @@ export function FormNew() {
 
             <Input type="number" text="Faça o orçamento" name="name" placeholder="Insira o nome do projeto" />
 
-            <Select name="categoria_id" text="Selecione a categoria" options={setRespos} />
+            <Select name="categoria_id" text="Selecione a categoria" options={respo} />
 
             <Submit text="Criar Projeto" />
         </form>
-
+        
     )
 }
