@@ -8,7 +8,7 @@ export function Select({ text, name, handleOnChange, value, options }) {
 
             <label htmlFor={name} className="controle">{text}</label>
             <select id={name} name={name} className="controle_ip">
-                <option selected>Selecione o projeto</option>
+                <option disabled>Selecione o projeto</option>
                 {
                     options.map((e) => (
                         <option name={e.id} key={e.id}>{e.name}</option>
