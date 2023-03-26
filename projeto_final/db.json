@@ -1,21 +1,141 @@
 {
-    "projects": [],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Infraestrutura"
-        },
-        {
-            "id": 2,
-            "name": "Desing"
-        },
-        {
-            "id": 3,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 4,
-            "name": "Planejamento"
-        }
-    ]
+  "projects": [
+    {
+      "category": {
+        "name": "Desing"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "category": {
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "category": {
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "name": "5000",
+      "id": 3
+    },
+    {
+      "category": {
+        "name": "Desing"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "50000",
+      "category": {
+        "name": "Infraestrutura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "50000",
+      "category": {
+        "name": "Infraestrutura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "50000",
+      "category": {
+        "name": "Infraestrutura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
+    },
+    {
+      "name": "5000",
+      "category": {
+        "name": "Desing"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 8
+    },
+    {
+      "name": "5000",
+      "category": {
+        "name": "Desing"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 9
+    },
+    {
+      "name": "5000",
+      "category": {
+        "name": "Infraestrutura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 10
+    },
+    {
+      "name": "5000",
+      "category": {
+        "name": "Infraestrutura"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 11
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 12
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "name": "5000",
+      "category": {
+        "name": "Desing"
+      },
+      "id": 13
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "name": "5000",
+      "category": {
+        "name": "Desing"
+      },
+      "id": 14
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infraestrutura"
+    },
+    {
+      "id": 2,
+      "name": "Desing"
+    },
+    {
+      "id": 3,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
 }
