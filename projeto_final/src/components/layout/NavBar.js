@@ -12,7 +12,7 @@ export function NavBar() {
             <ul className="lista_ul">
                 <li className="li">
                     <Link to='/' >
-                        <img src={imagem} />
+                        <img src={imagem} alt='imagem' />
                     </Link>
                 </li>
                 <li className="li" >
