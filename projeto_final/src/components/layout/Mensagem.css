@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.mensagem {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+
+.sucess {
+    color: #155724;
+    background-color: #d4d4d4;
+    border: #c3e6cb;
+}
+
+.sucess {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: #c3e6cb;
+}
